@@ -2,13 +2,11 @@ from tkinter import *
 
 root = Tk()
 root.title("Calculator")
-root.wm_iconbitmap("calicon.ico")
 
 gui_width = 350
-gui_height = 600
+gui_height = 500
 root.geometry(f"{gui_width}x{gui_height}")
 root.minsize(gui_width, gui_height)
-root.maxsize(gui_width, gui_height)
 
 scvalue = StringVar()
 scvalue.set("")
