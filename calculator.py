@@ -27,8 +27,7 @@ def click(event):
             try:
                 theValue = eval(screen.get())
             except Exception as e:
-                print("An Error Occured")
-                theValue = "Invalid Input!"
+                theValue = "Invalid!"
 
         scvalue.set(theValue)
         screen.update()
